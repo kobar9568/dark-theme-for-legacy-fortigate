@@ -1,0 +1,24 @@
+f-dashboard {
+  /* Dashboard background */
+  background-color: green !important;
+}
+
+f-dashboard .module-container .module-list>li:not(.ui-draggable-dragging) {
+  /* Dashboard card margin */
+  background-color: aqua !important;
+}
+
+f-dashboard .module-container .module-list f-dashboard-widget {
+  /* Dashboard card background */
+  background-color: yellow !important;
+}
+
+nav ul.root {
+  /* Left pain background */
+  background-color: black !important;
+}
+
+nav li.level-0 > .submenu ul {
+  /* Left pain Opened background */
+  background-color: red !important;
+}

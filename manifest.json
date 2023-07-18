@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Dark theme for legacy FortiGate",
+  "version": "0.0.1",
+  "description": "Dark theme for legacy FortiGate",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["style.css"]
+    }
+  ]
+}
